@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #509aa4;
+}
+.converter {
+    cursor: pointer;
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 5px rgba(34, 129, 206, 0.782);
+    text-align: center;
+}
+.converter:hover{
+    cursor: pointer;
+    padding: 55px;
+    color: aqua;
+    background-color: rgb(65, 81, 134) ;
+    box-shadow: 1px 1px 10px 5px rgb(19, 25, 42);
+}
+.converter input, .converter select, .converter button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
